@@ -166,3 +166,128 @@ body {
   opacity: 0.7;
   margin-bottom: 50px;
 }
+
+.content__3{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 362px);
+  justify-content: center;
+  padding-top: 264px;
+  padding-bottom: 243px;
+}
+
+.item{
+  border-radius: 10px;
+  background: #132035;
+  padding: 30px;
+  display: grid;
+  justify-items: center;
+  gap: 30px;
+}
+
+.item__big{
+  grid-column: span 2;
+  grid-row: span 2;
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
+.heading{
+  color: var(--ffffff, #FFF);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.item__text{
+  color: var(--ffffff, #FFF);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 0.7;
+  }
+
+.title__3{
+  margin-top: 11px;
+  margin-bottom: 40px;
+  color: var(--ffffff, #FFF);
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  }
+
+.dsc__3{
+  color: var(--ffffff, #FFF);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  }
+  
+.contant__4-img{
+  max-width: 100%;
+  margin-left: 25px;
+  }
+
+.content__4{
+  margin-bottom: 221px;
+  }
+
+.footer {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  }
+  
+.footer__title {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 33px;
+  }
+.footer__contacts {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+  }
+.footer__about-text {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  opacity: 0.6;
+  max-width: 200px;
+  }
+.footer__email {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+  }
+.footer-icon {
+  margin-right: 24px;
+  }
